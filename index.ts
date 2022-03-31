@@ -11,7 +11,7 @@ dataElement.innerHTML = recolor(defElement.innerHTML);
 
 document.querySelector('#result').textContent =
   userValidationResult.errors ?? 'Looks good!';
-
+//very important comment
 function recolor(input) {
   input = input.split('\n');
   let fixedInput = [];
